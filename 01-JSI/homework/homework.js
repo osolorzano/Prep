@@ -255,12 +255,15 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Pueden usar un while o un bucle do ... while (Investigarlo si quieren hacerlo de la segunda forma)
   // Tu código:
-  var i= 0;
-  while(i < 8) {
-    numero = numero + 5;
-    i++;
-  }
-  return numero;
+
+let i = 0;
+do {
+  numero = numero + 5
+  i++;
+}while (i < 8 );
+  
+return (numero);
+
 }
 
 
